@@ -1,27 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>slider-js</title>
-</head>
-<body>
-    <div class="slider">
-        <div class="slides">
-            <div class="slide_item active">
-                <img src="./images/img-1.jpg" alt="Image 1">
-            </div>
-            <div class="slide_item">
-                <img src="./images/img-2.jpg" width="100%" alt="Image 2">
-            </div>
-            <div class="slide_item">
-                <img src="./images/img-3.jpeg" alt="Image 3">
-            </div>
+    <title>Document</title>
+ </head>
+ <body>
+    <div class="carousel">
+        <div class="carousel_Item"><img src="./images/img-1.jpg" alt="img-1"></div>
+        <div class="carousel_Item "><img src="./images/img-2.jpg" alt="img-2"></div>
+        <div class="carousel_Item"><img src="./images/img-3.jpeg" alt="img-3"></div>
+        <div class="carousel_nav">
+            <span class="carousel_button"></span>
+            <span class="carousel_button carousel_button_selected"></span>
+            <span class="carousel_button"></span>
         </div>
-        <button class="prev" onclick="changeSlide(-1)">Previous</button>
-        <button class="next" onclick="changeSlide(1)">next</button>
-    </div> 
+    </div>
     <script src="./js/script.js"></script>
-</body>
-</html>
+ </body>
+ </html>
